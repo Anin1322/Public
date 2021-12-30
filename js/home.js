@@ -88,7 +88,7 @@ function getCashIn(){
         <div class="row mb-4">
             <div class="col-12">
                 <h3 class="fs-2">R$ ${cashIn[index].value.toFixed(2)}</h3>
-                    <div class="container p-0">
+                    <div class="container">
                         <div class="rol">
                             <div class="col-12 col-8">
                                     <p>${cashIn[index].description}</p>
@@ -130,7 +130,7 @@ function getCashOut(){
         <div class="row mb-4">
             <div class="col-12">
                 <h3 class="fs-2">R$ ${cashIn[index].value.toFixed(2)}</h3>
-                    <div class="container p-0">
+                    <div class="container">
                         <div class="rol">
                             <div class="col-12 col-8">
                                     <p>${cashIn[index].description}</p>

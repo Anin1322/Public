@@ -38,53 +38,60 @@
 		</nav>
 
  	</header>
-			<div>
-						<div class="container-lg">
-							<div class="row">
-								<div class="col d-flex mt-4 justify-content-start align-items-center">
-									<i class="bi bi-cash-coin color-primary icon-detail"></i>
-									<span class="fs-2" id="total"> R$ 0,00</span>
-								</div>
-
-								<div class="col d-flex mt-4 justify-content-end">
-									<div class="text-center">
-										<img src="./assets/images/coins-small.png" alt="image coins" class="img-fluid" srcret="">
-									</div>
-								</div>						
-							</div>
-
-								<div class="row">
-									<div class="col-12 info shadow-lg">
-										<div class="container">
-											<div class="row">
-												<div class="col-6">
-													<span class="fs-4">Entradas <i class="bi bi-arrow-down-circle fs-2 align-middle"></i></span>
-												</div>
-												<div class="col-6">
-													<span class="fs-4">Saídas <i class="bi bi-arrow-up-circle fs-2 align-middle"></i></span>
-												</div>
-												<div class="col-12 my-2">
-													<hr>
-												</div>
-											</div>
-										</div>
-									</div>
-										<div class="row">
-												<div class="col-6">
-													<div class="container p-0" id="cash-in-list">												
-													</div>
-												</div>
-												<div class="col-6">
-													<div class="container p-0" id="cash-out-list">
-													</div>	
-												</div>
-											<div class="col-12 mb-4">
-												<button type="button" class="btn button-default" id="transaction-button">Ver todas</button>
-											</div>
-										</div>
-								</div>
-							<button class="btn button-float" data-bs-toggle="modal" data-bs-target="#transacion-modal"><i class="bi bi-plus"></i></button>
+		<div>
+			<div class="container-lg">
+				<div class="row">
+					<div class="col d-flex mt-4 justify-content-start align-items-center">
+						<i class="bi bi-cash-coin color-primary icon-detail"></i>
+							<span class="fs-2" id="total"> R$ 0,00</span>
 					</div>
+
+					<div class="col d-flex mt-4 justify-content-end">
+						<div class="text-center">
+							<img src="./assets/images/coins-small.png" alt="image coins" class="img-fluid" srcret="">
+						</div>
+					</div>						
+				</div>
+
+				<div class="row">
+					<div class="col-12 info shadow-lg">
+						<div class="container">
+							<div class="row">
+								<div class="col-6">
+									<span class="fs-4">Entradas <i class="bi bi-arrow-down-circle fs-2 align-middle"></i></span>
+								</div>
+								
+								<div class="col-6">
+									<span class="fs-4">Saídas <i class="bi bi-arrow-up-circle fs-2 align-middle"></i></span>
+								</div>
+												
+								<div class="col-12 my-2">
+									<hr>
+								</div>
+							</div>
+						</div>
+					
+						<div class="row">
+							<div class="col-6">
+								<div class="container p-0" id="cash-in-list">												
+								</div>
+							</div>
+												
+							<div class="col-6">
+
+							<div class="container p-0" id="cash-out-list">
+								</div>	
+							</div>
+											
+							<div class="col-12 mb-4">
+								<button type="button" class="btn button-default" id="transaction-button">Ver todas</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>	
+			<button class="btn button-float" data-bs-toggle="modal" data-bs-target="#transacion-modal"><i class="bi bi-plus"></i></button>
+		</div>
 
 					<!-- Modal -->
 						<div class="modal fade" id="transacion-modal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
